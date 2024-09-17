@@ -1,0 +1,185 @@
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+		url(/font/MontserratSemiBold.woff2) format('woff2'),
+    url(/font/Montserrat-SemiBold.woff) format('woff');
+	font-weight: 600;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url(/font/MontserratBold.woff2) format('woff2'),
+    url(/font/Montserrat-Bold.woff) format('woff');
+	font-weight: 700;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url(/font/MontserratRegular.woff2) format('woff2'),
+    url(/font/Montserrat-Regular.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat Medium'), local('Montserrat-Medium'),
+		url(/font/MontserratMedium.woff2) format('woff2'),
+    url(/font/Montserrat-Medium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url(/font/MontserratExtraBold.woff2) format('woff2'),
+    url(/font/Montserrat-ExtraBold.woff) format('woff');
+	font-weight: 800;
+	font-style: normal;
+  font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+  }
+  
+  /*glob*/
+  
+  .line-break {
+    white-space: pre-line;
+  }
+  
+  :root {
+    --gap: 32px;
+  }
+  
+  .list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .section-title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  
+  section {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  
+  .descr {
+    line-height: 32px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* Hero */
+
+  .page {
+    background-color: #012212d8;
+  }
+
+  .conteiner__hero {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .title {
+    color: #fff;
+    display: block;
+    border-bottom: 1px solid #141414;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .block {
+    width: 34%;
+  }
+
+  .block-one {
+    flex-wrap: wrap;
+     gap: 2px;
+  }
+
+  .gallery {
+    width: 250px;
+    height: auto;
+  }
+
+  
+  .block-two {
+    padding: 75px;
+    white-space: pre-line;
+    color: rgb(253, 253, 253);
+  }
+
+  .block-three {
+    gap: 2px;
+    flex-wrap: wrap;
+  }
+
